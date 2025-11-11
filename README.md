@@ -18,55 +18,42 @@ _我们将在不到一小时的时间内学习如何使用GitHub_
 </header>
 
 <!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Author notes: Finish >>>
+  Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Step 2: 提交文件（Commit a file）
+## 结束
 
-_你已经成功创建了一个分支! :tada:_
-
-创建分支的好处是，你可以在不影响 main 主分支的情况下修改项目。
-现在有了属于你的分支，接下来我们要创建一个新文件，并完成你的第一个提交（commit）！
-
-**什么是提交(commit)？**: _[提交](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ 是指对项目中的文件或文件夹的一组修改。提交存在于某个分支中。更多信息，请参阅文档 "[关于提交](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)"。
-
-### :keyboard: 实操环节：完成你的第一个提交
-
-下面会带你在 GitHub 上完成一次文件修改提交。
-
-“提交” 可以是对项目所做的任何修改，比如修改文件内容、新增文件、删除文件或重命名。
-本练习中，我们要先在你的分支上添加一个新文件，并将它提交到仓库中。
+_恭喜你顺利完成本课程，正式踏入开发者的世界！_
 
 
-> [!NOTE]
-> `.md` 是 Markdown 文件的扩展名。Markdown 是一种轻量级标记语言，用来格式化文字。其语法格式可以阅读我们的文档 "[基本撰写和格式语法](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" 或学习课程 "[使用 Markdown 进行沟通](https://github.com/skills/communicate-using-markdown)"。
+<img src=https://octodex.github.com/images/collabocats.jpg alt=celebrate width=300 align=right>
 
-1. 在仓库导航栏中， 进入 **< > Code** 页面，确认你当前所在的分支是 `my-first-branch`。
+来回顾一下你完成的内容：
 
-2. 点击 **Add file** 下拉菜单，选择 **Create new file** 。
+* 了解了 GitHub 的基本概念：仓库（repository）、分支（branch）、提交（commit）以及拉取请求（pull request）。
+* 亲手创建了一个分支、一次提交和一个拉取请求。
+* 成功合并了你的第一个拉取请求。
+* 你已经完成了第一次开源贡献! :tada:
 
-   ![create new file option](/images/create-new-file.png)
 
-3. 在 **Name your file...** 输入框中填写文件名： `PROFILE.md`.
+### 接下来可以做什么？
 
-4. 在 **Enter file contents here** 编辑框中输入以下内容
+如果你想让自己的 GitHub 主页更有个性，可以创建一个 **个人主页 README**。下面是简要步骤（或参考官方文档 [管理个人主页 README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)）：
 
-   ```
-   Welcome to my GitHub profile!
-   ```
+1. 新建一个 **公开仓库**，仓库名要与你的 GitHub 用户名完全一致。
+2. 在仓库根目录下新建一个文件：`README.md`。
+3. 编辑这个文件的内容，用来展示你的简介、项目或兴趣。
+4. 如果你在新分支中创建了这个文件，记得提交一个拉取请求并合并。
+5. 最后，欢迎你在 [课程讨论区](https://github.com/orgs/skills/discussions/categories/introduction-to-github) 分享一下你的学习体验！
 
-   ![profile.md file screenshot](/images/my-profile-file.png)
+### 想继续深入了解？可以试试这些资源：
 
-5. 在页面右上方，点击 **Commit changes...**。
-在弹出的提交界面中，你可以填写一条简短的信息来说明这次提交的内容。
-虽然 GitHub 会自动生成一条默认信息，但这次我们自己写一条，输入： `Add PROFILE.md`。
 
-   ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png)
-
-6. 本节我们暂时不用关心其他选项，直接点击 **Commit changes**。
-7. 等待大约20秒，然后刷新当前课程页面。[GitHub Actions](https://docs.github.com/en/actions) 会自动检测并进入下一步。
+* 你是学生？看看 [GitHub 学生开发者工具包](https://education.github.com/pack)。
+* 继续学习其他 [GitHub 技能课程](https://github.com/skills)。
+* 阅读 [GitHub 新手指南](https://docs.github.com/en/get-started)。
+* 想参与更多项目？去 [GitHub Explore](https://github.com/explore) 发现有趣的开源项目吧。
 
 <footer>
 
